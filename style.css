@@ -6,10 +6,16 @@ body{
 h1{
     font-size: 50px;
 }
-.infinit{
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+.take-color{
    color: orange;
 }
-section{
+.flxiable-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -41,3 +47,17 @@ section{
     background-position: right;
     background-size: 80px;
 }
+.experience-item{
+    box-shadow: 5px 5px 40px gray;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+.bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90px;
+}
+
