@@ -53,6 +53,7 @@ h3{
     margin-left: 5%;
     margin-right: 5%;
     padding: 15px;
+    
 }
 .bottom-banner{
     background-image: url(images/exp-bg.png);
@@ -60,4 +61,17 @@ h3{
     background-position: left;
     background-size: 90px;
 }
-
+#web-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient( blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-exprience{
+    border-left: 7px solid;
+    border-image:linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+footer p{ 
+    text-align: center;
+    color: blue;
+}
